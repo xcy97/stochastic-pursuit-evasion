@@ -1,0 +1,11 @@
+&run
+ ntrials=10,
+ tmax=1000,
+ h=0.0001,
+ d=0.001,
+ mu=0.2,
+ a=0.5,
+ nch=1,
+ record_every=100,
+ output_prefix='results/speed_example'
+/

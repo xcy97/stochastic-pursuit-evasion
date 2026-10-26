@@ -1,0 +1,1 @@
+Presets are examples of individual conditions, not automatic full sweeps. Edit the namelist or run one file for each (N,D,mu,a) condition. Only smoke.nml is a quick test. Do not run a 100000-trial preset merely to check installation. All full runs can take substantial time. See README.md for complete parameter lists.

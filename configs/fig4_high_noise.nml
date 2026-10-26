@@ -1,0 +1,10 @@
+&run
+ ntrials=1000,
+ tmax=100000.0,
+ h=0.0001,
+ d=31.6228,
+ mu=30,
+ a=29.97,
+ nch=1,
+ output_prefix='results/fig4_high_noise'
+/

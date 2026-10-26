@@ -1,0 +1,11 @@
+&run
+ ntrials=100000,
+ tmax=1000,
+ h=0.0001,
+ d=0.004642,
+ mu=3,
+ a=2.4,
+ nch=3,
+ tail_proxy=301.516404,
+ output_prefix='results/fig6_example'
+/
