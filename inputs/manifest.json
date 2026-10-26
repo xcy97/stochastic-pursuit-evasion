@@ -1,0 +1,77 @@
+[
+  {
+    "source": "inputs/step/trajectories.csv",
+    "snapshot": "inputs/step/trajectories.csv",
+    "sha256": "d50ec3fc4e09ce1ebb7bda3394da6789f54d3d1e33a4191975d6035396a71336"
+  },
+  {
+    "source": "inputs/step/summary.csv",
+    "snapshot": "inputs/step/summary.csv",
+    "sha256": "47de91fc8e4314703e80658ec537fb99d102675b1ff38c947dd3bfe471292e7a"
+  },
+  {
+    "source": "inputs/step/paired_differences.csv",
+    "snapshot": "inputs/step/paired_differences.csv",
+    "sha256": "4ee5a481657c94803cb8a9138946712b573d9cdfb566dd05a9a0999a312fdc16"
+  },
+  {
+    "source": "inputs/step/run_info.txt",
+    "snapshot": "inputs/step/run_info.txt",
+    "sha256": "3d9a18bad193b3cbf22e9367f333edcd42261cc14c3cfb8e203aa97a762bf381"
+  },
+  {
+    "source": "inputs/step/timing.csv",
+    "snapshot": "inputs/step/timing.csv",
+    "sha256": "010ef5c3c3e8309afa4b43923933efe288dc3da6312272381e13e8082bd85bf8"
+  },
+  {
+    "source": "inputs/models/trajectories.csv",
+    "snapshot": "inputs/models/trajectories.csv",
+    "sha256": "18ef468ae369db8129521da79100b928e6c8bc5a0213ad6aa619e517c68051b9"
+  },
+  {
+    "source": "inputs/models/summary.csv",
+    "snapshot": "inputs/models/summary.csv",
+    "sha256": "c0b2c07e0542062a77eb0ecd96a17c951b963fde46a70e27e5769a9419bfb6f7"
+  },
+  {
+    "source": "inputs/models/paired_differences.csv",
+    "snapshot": "inputs/models/paired_differences.csv",
+    "sha256": "68428bb9fbe23d7fe22b9ffe3cddf1a5e0c949aec72dfd97ace4cc854759ce14"
+  },
+  {
+    "source": "inputs/models/run_info.txt",
+    "snapshot": "inputs/models/run_info.txt",
+    "sha256": "02a81c0002ffe34244c802fce28835ab25cb132782ef75cd719684d3bda36380"
+  },
+  {
+    "source": "inputs/models/timing.csv",
+    "snapshot": "inputs/models/timing.csv",
+    "sha256": "d16a72e68413a031d4a9b776483fb22cd8bc209a247e9a300de903f6e0a7d08c"
+  },
+  {
+    "source": "inputs/models/r_curves.csv",
+    "snapshot": "inputs/models/r_curves.csv",
+    "sha256": "98832f03569d5691fec12e5826f1b1955e5b2e3bb8e665d7dca7193d245a6c25"
+  },
+  {
+    "source": "inputs/new_capture/trajectories.txt",
+    "snapshot": "inputs/new_capture/trajectories.txt",
+    "sha256": "67906c46da3d5639d569c2b18f8ad3eac03aa493ba738d51f7dcfd23e39f2dba"
+  },
+  {
+    "source": "inputs/legacy/figure_data.json",
+    "snapshot": "inputs/legacy/figure_data.json",
+    "sha256": "214c334c93b8e2379283b1017def0d3fcc017ba1c2da746cdec158554abbf993"
+  },
+  {
+    "source": "inputs/legacy/reported_results.txt",
+    "snapshot": "inputs/legacy/reported_results.txt",
+    "sha256": "44bf0ed1f47720d9e89477a5178b3f19196068997fc0fbaa3f37809cc1fe22f7"
+  },
+  {
+    "source": "inputs/legacy/earlier_results.txt",
+    "snapshot": "inputs/legacy/earlier_results.txt",
+    "sha256": "18cc183d11b56e6c920deb0083bc80610c46172896a3f4fd6e982703b2e149d7"
+  }
+]
