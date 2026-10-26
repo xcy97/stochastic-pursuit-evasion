@@ -1,0 +1,20 @@
+R2C2 step-size check. This is not a new pursuit model.
+Compiler: Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.6.0 Build 20220226_000000
+Compiler options: /nologo /O2 /module:x64\Release\ /object:x64\Release\ /Fdx64\Release\vc160.pdb /libs:dll /threads /c /Qlocation,link,D:\VS2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64 /Qm64
+master_seed=20261023 trials=1000
+Tmax=1.000000000000000E+005 bootstrap_resamples=2000
+case_selection=0 level_selection=0
+N=1 R=.1 S=1 ve=1; evader=(0,0), chaser=(1,0), internal state=(0,0).
+Euler-Maruyama uses old states for ALL drift components.
+Capture checked only at each level endpoint. No bridge/interpolation correction.
+Fine increments sum to coarse increments while levels are active.
+After fine capture, future Brownian increments can be sampled on coarser active grids.
+RNG intrinsic to this compiler; exact replay requires same compiler/runtime and seed mapping.
+Intervals: percentile bootstrap over independent trial IDs; paired resampling for differences.
+When censored, compare min(T,Tmax); do not call its mean the unconditional MCT.
+Shared-run CPU/wall time is joint, not a separate runtime for each level.
+COMPLETED case 1
+COMPLETED case 2
+COMPLETED case 3
+COMPLETED case 4
+RUN COMPLETED SUCCESSFULLY
