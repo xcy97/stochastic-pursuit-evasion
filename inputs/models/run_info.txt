@@ -1,0 +1,40 @@
+R2C5 three-model experiment, source version 2026-10-23.
+Compiler: Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.6.0 Build 20220226_000000
+Compiler options: /nologo /O2 /module:x64\Release\ /object:x64\Release\ /Fdx64\Release\vc160.pdb /libs:dll /threads /c /Qlocation,link,D:\VS2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64 /Qm64
+trials=1000 first_trial=1
+master_seed=20261023 bootstrap_resamples=2000
+h=1.000000000000000E-006 Tmax=1.000000000000000E+005
+N=1; R=1.000000000000000E-001 S=1.000000000000000E+000 ve=1.000000000000000E+000
+r_initial=1.000000000000000E+000 case_selection=0
+Evader=(0,0); chaser=(r_initial,0); internal state A=(0,0).
+A: full original Cartesian position/internal-state equations.
+B: aligned speed (a/mu)*(1-exp(-mu*t)); from rest, evaluated at OLD step time.
+C: speed a/mu from t=0; NOT initialized with zero speed.
+All models share each Cartesian Brownian increment, not positions/directions.
+Each model uses its own line of sight and endpoint-only capture detection.
+No radial D/r drift is added to Cartesian equations. No bridge correction.
+Sequential differences are A-B, B-C and A-C. These are not order-independent causes.
+Percentages ALL divide by the corresponding mean of A, so point estimates add.
+CI: percentile bootstrap over independent trial IDs; pairs resampled together.
+When censored, paired comparisons ALL use observed min(T,Tmax), not full MCT.
+Alignment diagnostics: per-trial time averages, then unweighted across trials.
+mean_cos_A excludes zero-speed points; speed deficit compares A with B over A window.
+h=1e-6 is a numerical choice, NOT an exact continuous-time reference.
+Analytic_C_reference is the existing MCT integral, checked at orders 128/160.
+Fixed analytic lookup returns NA if D,speed,R,S,ve or r_initial are changed.
+Curve output uses first two local trial IDs, dt=.01 and t<=20; not the whole long tail.
+Random replay requires same compiler/runtime/architecture and seed mapping.
+Only completed trial groups are flushed; no automatic restart from partial trials.
+CASE 1 seed_case=5 D=2.154400000000000E-002 mu=3.000000000000000E+000 a=2.400000000000000E+000
+CASE 2 seed_case=3 D=2.154430000000000E-001 mu=3.000000000000000E+000 a=2.400000000000000E+000
+CASE 3 seed_case=2 D=3.162280000000000E+001 mu=3.000000000000000E+000 a=2.400000000000000E+000
+CASE 4 seed_case=6 D=2.154400000000000E-002 mu=3.000000000000000E+001 a=2.997000000000000E+001
+CASE 5 seed_case=7 D=2.154430000000000E-001 mu=3.000000000000000E+001 a=2.997000000000000E+001
+CASE 6 seed_case=4 D=3.162280000000000E+001 mu=3.000000000000000E+001 a=2.997000000000000E+001
+COMPLETED case 1
+COMPLETED case 2
+COMPLETED case 3
+COMPLETED case 4
+COMPLETED case 5
+COMPLETED case 6
+RUN COMPLETED SUCCESSFULLY
