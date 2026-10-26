@@ -1,0 +1,243 @@
+{
+  "parameters": {
+    "R": 0.1,
+    "S": 1.0,
+    "ve": 1.0,
+    "r0": 1.0,
+    "figure3": {
+      "mu": 3.0,
+      "a": 2.4
+    },
+    "figure4": {
+      "mu": 30.0,
+      "a": 29.97
+    }
+  },
+  "quadrature_order": 160,
+  "theory_noise_min": 0.001,
+  "theory_noise_max": 31.6228,
+  "theory_noise_points": 181,
+  "figures": {
+    "3": [
+      {
+        "D": "0.001000",
+        "Tmax": 1000,
+        "captured": 0,
+        "censored": 1000,
+        "captured_mean": null
+      },
+      {
+        "D": "0.002154",
+        "Tmax": 100000,
+        "captured": 761,
+        "censored": 239,
+        "captured_mean": 39719.944055
+      },
+      {
+        "D": "0.004642",
+        "Tmax": 100000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 452.844378
+      },
+      {
+        "D": "0.010000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 54.691336
+      },
+      {
+        "D": "0.021544",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 19.701417
+      },
+      {
+        "D": "0.046416",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 13.017776
+      },
+      {
+        "D": "0.100000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 9.723202
+      },
+      {
+        "D": "0.215443",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 9.030238
+      },
+      {
+        "D": "0.464159",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 9.351745
+      },
+      {
+        "D": "1.000000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 10.795801
+      },
+      {
+        "D": "2.154430",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 15.560703
+      },
+      {
+        "D": "4.641590",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 25.465579
+      },
+      {
+        "D": "10.000000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 56.443528
+      },
+      {
+        "D": "17.782800",
+        "Tmax": 100000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 81.720676
+      },
+      {
+        "D": "31.622800",
+        "Tmax": 100000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 174.723001
+      }
+    ],
+    "4": [
+      {
+        "D": "0.001000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.822426
+      },
+      {
+        "D": "0.002154",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.629314
+      },
+      {
+        "D": "0.004642",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.419162
+      },
+      {
+        "D": "0.010000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.169567
+      },
+      {
+        "D": "0.021544",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 3.984852
+      },
+      {
+        "D": "0.046416",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 3.988959
+      },
+      {
+        "D": "0.100000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.076457
+      },
+      {
+        "D": "0.215443",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.299473
+      },
+      {
+        "D": "0.464159",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 4.661623
+      },
+      {
+        "D": "1.000000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 6.08013
+      },
+      {
+        "D": "2.154430",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 8.876282
+      },
+      {
+        "D": "4.641590",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 14.937081
+      },
+      {
+        "D": "10.000000",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 32.673361
+      },
+      {
+        "D": "17.782800",
+        "Tmax": 1000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 49.784805
+      },
+      {
+        "D": "31.622800",
+        "Tmax": 100000,
+        "captured": 1000,
+        "censored": 0,
+        "captured_mean": 97.433853
+      }
+    ]
+  },
+  "provenance": [
+    "Figure 3 values follow the two supplied summary text files.",
+    "Figure 3 D=0.002154 was checked against 1000 trajectory rows.",
+    "Figure 4 original values follow user screenshots; the last value 97.433853 and success rate 1 were supplied by the user.",
+    "NN=1000; horizon metadata outside the trajectory header follows the conversation.",
+    "The statistics are captured-only means, with censoring explicitly retained."
+  ]
+}
