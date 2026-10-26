@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-27",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "MATLAB": "9.11.0.1769968 (R2021b)",
+    "compiler": "Intel Fortran Classic 2021.6.0 Windows x64"
+  },
+  "fortran": {
+    "compiled_entry_programs": 3,
+    "short_runs_passed": true,
+    "source_identical_to_previously_compiled_programs": true,
+    "independent_deterministic_old_state_check": true,
+    "deterministic_capture_time": 3.908
+  },
+  "saved_data_analysis": {
+    "checks_passed": 100,
+    "all_five_latex_table_bodies_match_manuscript": true,
+    "all_65_hybrid_estimates_reproduced": true
+  },
+  "matlab": {
+    "figure_entries_passed": 23,
+    "table_rows": [
+      15,
+      15,
+      4,
+      6,
+      6
+    ],
+    "statistics_toolbox_used": true,
+    "signal_processing_toolbox_used": true
+  },
+  "data_path_changes": "Histogram input files renamed by panel; raw capture values unchanged.",
+  "production_simulations_repeated_during_packaging": false
+}

@@ -1,0 +1,11 @@
+figure,entry,input,simulation_settings
+1 and 2,matlab/fig1a.m through fig2b.m,matlab/data,10 saved realizations per condition; mu=.2 a=.5; parameter-specific S and D in filenames
+3,matlab/fig3.m,matlab/revision_data/fig3_*.csv,N=1 mu=3 a=2.4; h=1e-4 main; horizons in Table 1
+4,matlab/fig4.m,matlab/revision_data/fig4_*.csv,N=1 mu=30 a=29.97; h=1e-4 main; horizons in Table 2
+5,matlab/fig5.m,embedded capture fractions; Table fig6_hybrid_input.csv,N=1/3/8/14/25 mu=3 a=2.4 Tmax=1000 n=100000
+6,matlab/fig6.m,tables/fig6_hybrid_input.csv plus elapsed correction,same as Figure 5; Eq.27 approximate tail proxy
+7,matlab/fig7a.m through fig7e.m,matlab/data/fig7*_capture_times.txt,mu=3 a=2.4 n=10000 each; N and D in each input filename
+8,matlab/fig8.m,matlab/data/fig8_mean_times.txt,mu=.2 a=.5 n=100000; N=1/2/3/5/11/17/32
+9,matlab/fig9a.m through fig9e.m,matlab/data/fig9*_capture_times.txt,mu=.2 a=.5 n=10000; 9a uses second simulation batch
+A.1,matlab/figA1a.m and figA1b.m,inputs/models/trajectories.csv,h=1e-6; six cases; n=1000 paired/model
+Tables 1/2/A.1/A.2/A.3,matlab/reproduce_tables.m or analysis/export_manuscript_tables.py,tables and matlab/revision_data,run analysis/reproduce.py to rebuild validation statistics
