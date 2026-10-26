@@ -1,0 +1,817 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 92,
+    "sha256": "c5e714520ac31990321a3b43931eda2f35ae37d388ea9bee07b8e9cf7228d84c"
+  },
+  {
+    "file": "README.md",
+    "bytes": 10606,
+    "sha256": "878972b9fce109845e737b469baf9011d51ea4f2c270e147519f4853b7fa734f"
+  },
+  {
+    "file": "VERSION",
+    "bytes": 7,
+    "sha256": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+  },
+  {
+    "file": "analysis/analytical_mct.py",
+    "bytes": 1482,
+    "sha256": "fa7b1ad4b85c21b1727bd51f16f70836ccf3ff51ba9f0fbb39ca15a20c6c1080"
+  },
+  {
+    "file": "analysis/analyze_results.py",
+    "bytes": 10598,
+    "sha256": "5ef8537f4a2b84f6215c068eb2079ba946a876f945e73a0e73b1493871427976"
+  },
+  {
+    "file": "analysis/calculate_figure6.py",
+    "bytes": 910,
+    "sha256": "0682541838a45cedb00ec43c2f6536589e1223eafeb4f6999894541cbdb6a223"
+  },
+  {
+    "file": "analysis/export_manuscript_tables.py",
+    "bytes": 3166,
+    "sha256": "188b45f86ed8a27dccf3a65537566b3ccb5300dff330da5b7675ae46923482b1"
+  },
+  {
+    "file": "analysis/reproduce.py",
+    "bytes": 1720,
+    "sha256": "5f49e7c91e4ae1b47ef593d97cea10514fde0717b6fac71ece8e2b15396cc6fc"
+  },
+  {
+    "file": "configs/README.md",
+    "bytes": 320,
+    "sha256": "7e9b8f85d4bce7da11b85f6b42e7a6e7c64fe8f9eda8fac40ac1cc16811c7bdb"
+  },
+  {
+    "file": "configs/fig3_weak_noise.nml",
+    "bytes": 137,
+    "sha256": "2c427e38fe424b842d709d31f273e1c6955f39b5f870d88b77e85794b1929ffd"
+  },
+  {
+    "file": "configs/fig4_high_noise.nml",
+    "bytes": 138,
+    "sha256": "c1d90f9f38b8f5b9adf697d661f73cb3231aaababe0bafc6f301e581044ed7dc"
+  },
+  {
+    "file": "configs/fig6_example.nml",
+    "bytes": 156,
+    "sha256": "209de53ddcc331a53d97ee44b96222ff224cb77e746e6cc92e1c02bb198f2ed8"
+  },
+  {
+    "file": "configs/fig8_example.nml",
+    "bytes": 130,
+    "sha256": "495abadb7a88a2d64d16ef2579dc874cdf88380796b052cc3c9a2f14c9547031"
+  },
+  {
+    "file": "configs/fig9a.nml",
+    "bytes": 122,
+    "sha256": "c00089b2e7636f326ff3a71e217df95598095783c1bc01db6c590e954b97eb91"
+  },
+  {
+    "file": "configs/smoke.nml",
+    "bytes": 133,
+    "sha256": "5358a9b7c485c27a1b7de797216c36a1c559f27af0e5e3d77975e4c3efee955e"
+  },
+  {
+    "file": "configs/speed_example.nml",
+    "bytes": 147,
+    "sha256": "ea0cc23db70ea1f7097ab1b2cacf6935b8e56082995fc92b45b383a3a0e71dbc"
+  },
+  {
+    "file": "documentation/FIGURE_MAP.csv",
+    "bytes": 1236,
+    "sha256": "edaa7cc62396c0d149ce34fdf56be07a44a6468ebef9b4b7f14f6648412f92d7"
+  },
+  {
+    "file": "documentation/METHODS_AND_DATA.md",
+    "bytes": 5283,
+    "sha256": "533bd8c526ff18c62bd3552a9da55c2b075bf26176112018f92efbc5ec08ab2c"
+  },
+  {
+    "file": "documentation/PROVENANCE.md",
+    "bytes": 1889,
+    "sha256": "fa6973456845ab0156f9da06df64836a5e164b0d986f1fe62642cce5e59afe47"
+  },
+  {
+    "file": "documentation/TEST_REPORT.json",
+    "bytes": 1047,
+    "sha256": "5b7596f0863c7344ccdc0b8bb0429f1a190d5ea9d7021f81946b806091089ce4"
+  },
+  {
+    "file": "fortran/main_model.f90",
+    "bytes": 6148,
+    "sha256": "e9767f5e11172b528faa0f4f4e5c4e09cf09191df72339af35e3597458fb3bd1"
+  },
+  {
+    "file": "fortran/stepcheck.f90",
+    "bytes": 20854,
+    "sha256": "9adb7bd9a840a18d3e840f302413691e06cad5cc536b278176ab0624acc64bb1"
+  },
+  {
+    "file": "fortran/three_models.f90",
+    "bytes": 29500,
+    "sha256": "87a35134f05001b7debd31c078c2d3e80ec5ace6a870e0b6edb5b8183b581391"
+  },
+  {
+    "file": "generated_tables/table1_capture_statistics.tex",
+    "bytes": 784,
+    "sha256": "241b4b392418bac3d34696e34dae064e586173714174aa8a137efdccedc06647"
+  },
+  {
+    "file": "generated_tables/table2_capture_statistics.tex",
+    "bytes": 770,
+    "sha256": "7a9083a6491a245e5ada46c9ee83bcce3375cae2da779b4352cf74bfc0ec4b27"
+  },
+  {
+    "file": "generated_tables/tableA1_steps.tex",
+    "bytes": 523,
+    "sha256": "f8fc5147363d535c526c58f1038308c6af2ab0ee1817f0546f0f239b6a5fb8ef"
+  },
+  {
+    "file": "generated_tables/tableA2_model_means.tex",
+    "bytes": 694,
+    "sha256": "af71e836098be7d43a9ab55cd095f510b8ab81da15b0c2030645ca11e1196ee1"
+  },
+  {
+    "file": "generated_tables/tableA3_model_effects.tex",
+    "bytes": 676,
+    "sha256": "b018c773349f32a4dbbc891046820f8e22ec11c5a916a2bc8e2998f10534bc14"
+  },
+  {
+    "file": "historical_source/D.txt",
+    "bytes": 121,
+    "sha256": "071b9e26597f216467ba93a7ef622cc736d2964762c9018cfe2f641d50be3f6f"
+  },
+  {
+    "file": "historical_source/full_model_original.f90",
+    "bytes": 7044,
+    "sha256": "de4969f488e1aa0418796c5e4389f9ddf6fbb7fa693674a926ec5be2cec871d0"
+  },
+  {
+    "file": "inputs/legacy/earlier_results.txt",
+    "bytes": 573,
+    "sha256": "18cc183d11b56e6c920deb0083bc80610c46172896a3f4fd6e982703b2e149d7"
+  },
+  {
+    "file": "inputs/legacy/figure_data.json",
+    "bytes": 5509,
+    "sha256": "214c334c93b8e2379283b1017def0d3fcc017ba1c2da746cdec158554abbf993"
+  },
+  {
+    "file": "inputs/legacy/reported_results.txt",
+    "bytes": 655,
+    "sha256": "44bf0ed1f47720d9e89477a5178b3f19196068997fc0fbaa3f37809cc1fe22f7"
+  },
+  {
+    "file": "inputs/manifest.json",
+    "bytes": 2858,
+    "sha256": "f96c436bcb6b508afed5c961ce64bd717d6ef3c0960d635c8f6d1df4b59ab0a3"
+  },
+  {
+    "file": "inputs/models/paired_differences.csv",
+    "bytes": 5005,
+    "sha256": "68428bb9fbe23d7fe22b9ffe3cddf1a5e0c949aec72dfd97ace4cc854759ce14"
+  },
+  {
+    "file": "inputs/models/r_curves.csv",
+    "bytes": 2983702,
+    "sha256": "98832f03569d5691fec12e5826f1b1955e5b2e3bb8e665d7dca7193d245a6c25"
+  },
+  {
+    "file": "inputs/models/run_info.txt",
+    "bytes": 2784,
+    "sha256": "02a81c0002ffe34244c802fce28835ab25cb132782ef75cd719684d3bda36380"
+  },
+  {
+    "file": "inputs/models/summary.csv",
+    "bytes": 8591,
+    "sha256": "c0b2c07e0542062a77eb0ecd96a17c951b963fde46a70e27e5769a9419bfb6f7"
+  },
+  {
+    "file": "inputs/models/timing.csv",
+    "bytes": 868,
+    "sha256": "d16a72e68413a031d4a9b776483fb22cd8bc209a247e9a300de903f6e0a7d08c"
+  },
+  {
+    "file": "inputs/models/trajectories.csv",
+    "bytes": 3826932,
+    "sha256": "18ef468ae369db8129521da79100b928e6c8bc5a0213ad6aa619e517c68051b9"
+  },
+  {
+    "file": "inputs/new_capture/trajectories.txt",
+    "bytes": 38162,
+    "sha256": "67906c46da3d5639d569c2b18f8ad3eac03aa493ba738d51f7dcfd23e39f2dba"
+  },
+  {
+    "file": "inputs/step/paired_differences.csv",
+    "bytes": 3538,
+    "sha256": "4ee5a481657c94803cb8a9138946712b573d9cdfb566dd05a9a0999a312fdc16"
+  },
+  {
+    "file": "inputs/step/run_info.txt",
+    "bytes": 1303,
+    "sha256": "3d9a18bad193b3cbf22e9367f333edcd42261cc14c3cfb8e203aa97a762bf381"
+  },
+  {
+    "file": "inputs/step/summary.csv",
+    "bytes": 4399,
+    "sha256": "47de91fc8e4314703e80658ec537fb99d102675b1ff38c947dd3bfe471292e7a"
+  },
+  {
+    "file": "inputs/step/timing.csv",
+    "bytes": 646,
+    "sha256": "010ef5c3c3e8309afa4b43923933efe288dc3da6312272381e13e8082bd85bf8"
+  },
+  {
+    "file": "inputs/step/trajectories.csv",
+    "bytes": 1702125,
+    "sha256": "d50ec3fc4e09ce1ebb7bda3394da6789f54d3d1e33a4191975d6035396a71336"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run1.txt",
+    "bytes": 23322,
+    "sha256": "9ca622f82ae03055e2736b98b6c6aaebabbbecdabea73448f6abf985f79a658e"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run10.txt",
+    "bytes": 23524,
+    "sha256": "ead397d268b0ebf3a899fda86ea40043902793a074ee5e541d3661f9c3ba5818"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run2.txt",
+    "bytes": 22532,
+    "sha256": "5ca14f0fe9613ff2a37588ca78d584100d7282126c186386b9621d5a9b440294"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run3.txt",
+    "bytes": 22317,
+    "sha256": "0cd99431e07981fe34c63b52bd2626471866cb4390fc426873bfcfef078301a6"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run4.txt",
+    "bytes": 23426,
+    "sha256": "1dc2505c0f0346072bac453e420e0ae13e59e57aba7bd911a86871e59668038b"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run5.txt",
+    "bytes": 21863,
+    "sha256": "2675d9125f99e62f700b61ccc343a76851ee18eadba8cc9e40f12817dcd39416"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run6.txt",
+    "bytes": 22805,
+    "sha256": "561a422e4a17313a9892cc8006dc13ffd7f3a69acf8c562e30275d21103813e9"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run7.txt",
+    "bytes": 22613,
+    "sha256": "55026ea2df4d9e7a00e7501a98f5d4a6252166fa2db6cbea64d3869982796727"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run8.txt",
+    "bytes": 22987,
+    "sha256": "ecd4dcb8009d81ea591be64d22fd7c66ecb03acc8f1068e98b339b043221248a"
+  },
+  {
+    "file": "matlab/data/D=0.001,S=1.0speed_run9.txt",
+    "bytes": 21600,
+    "sha256": "5b3ffacc87daaf1b4e8e3ea115da084ba6b8fe1a2a0199bbb11807f177372d55"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run1.txt",
+    "bytes": 18420,
+    "sha256": "900a04374446b4eea703dfeca173ddcd41e42907168b3c6d6e76c65fec452b3c"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run10.txt",
+    "bytes": 25020,
+    "sha256": "83236d741cc6e345c2fdccfe5e631727ce79087e7ab1d4a49a6c1f880a536efd"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run2.txt",
+    "bytes": 22023,
+    "sha256": "26fb09524f49138a00472066105af7b663a54aef4ccb3b7ea4c73668a5fb0a2c"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run3.txt",
+    "bytes": 22735,
+    "sha256": "c79cc3aeb33d9b7670045947abc614829c04058bb83a5619aa9b7c8c219c9c7f"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run4.txt",
+    "bytes": 27470,
+    "sha256": "81edc9e12a9e5f34302e86ffa17e92d964a15dc2a3653cde50bf382eebfa05ce"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run5.txt",
+    "bytes": 21979,
+    "sha256": "a14817f9a0137b7679b12496b563ab995d6fd1b2c23b1b5f1cc73d1ac2e29452"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run6.txt",
+    "bytes": 23980,
+    "sha256": "f847908a99baa201eac721e4ca0625c81132f0ef8a7f8f4ccc07795eecc916c3"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run7.txt",
+    "bytes": 26002,
+    "sha256": "8904aa05b6e380b41b3a6525b9afc5445a0cd1d49d8c090494fbe267edf1e5be"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run8.txt",
+    "bytes": 22000,
+    "sha256": "89bdafe7f706d6f060041966d9036aca8fd282c32f2071fa92eb4ca0f03fc5df"
+  },
+  {
+    "file": "matlab/data/D=0.05,S=1.0speed_run9.txt",
+    "bytes": 24438,
+    "sha256": "1bb20803406e49d80c959538df4f99635eff51d468aabe0e47d7705838b2ddc7"
+  },
+  {
+    "file": "matlab/data/fig7a_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "ea63b9d9eb935a922d6377c50fd8e7ce7bea94ea2b8209bf5bd82f8cb56187c6"
+  },
+  {
+    "file": "matlab/data/fig7b_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "e235ce806328ec2d909011b36204502f34c4ad030df128c7023130a044132bfb"
+  },
+  {
+    "file": "matlab/data/fig7c_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "0bd499ec570a7f8c1b4b4c61fee09af533d50ea22514c64507036e6b1ae3a23f"
+  },
+  {
+    "file": "matlab/data/fig7d_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "002220b8ad42186f3a4061fe19f10df35dd5c09ec1628778406beaa12e59d469"
+  },
+  {
+    "file": "matlab/data/fig7e_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "c9cd3d7143d520bf4698cd8a7fc4613123c5938872530600381e8c8a7607dc07"
+  },
+  {
+    "file": "matlab/data/fig8_mean_times.txt",
+    "bytes": 1470,
+    "sha256": "efdcb1ea94d6fc4cbeb8f30cbbefac1372349bf76632483b5e0a3171ed9e37ba"
+  },
+  {
+    "file": "matlab/data/fig9a_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "3a05766d52785b4bd93af55f2713dca74d5c48bac6009872b09b969e411cc03c"
+  },
+  {
+    "file": "matlab/data/fig9b_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "16b3151be46aecad503952ca83932e01066ed7f588f692667433a1c6abe56cf5"
+  },
+  {
+    "file": "matlab/data/fig9c_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "38b30bc9a52a1faf4164176adab6aee9ce9ea92be20131d0595252784783db8d"
+  },
+  {
+    "file": "matlab/data/fig9d_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "41741986c3453e66b7addf1d7644947a5ef4d682f4ec170cf144bd8e4c12f958"
+  },
+  {
+    "file": "matlab/data/fig9e_capture_times.txt",
+    "bytes": 140000,
+    "sha256": "4f51395f126f15b370a3beb10bb68316cd8605a64428cfe83af45582c7fd3206"
+  },
+  {
+    "file": "matlab/data/speed_run1.txt",
+    "bytes": 903,
+    "sha256": "c54bd32e1b2842d9ebc5aa2728199a6b70d17ed1fe5a70cc449c680abd26cef8"
+  },
+  {
+    "file": "matlab/data/speed_run10.txt",
+    "bytes": 33726,
+    "sha256": "4e0c3651aaebdb8986a750455e6a6b1e5fd0a1dd4b0cf7fd5388de9d47c2ea51"
+  },
+  {
+    "file": "matlab/data/speed_run2.txt",
+    "bytes": 1300,
+    "sha256": "58a82458527df72d8d83646fcff6ca230d343990cbfbb460ac99746c77296100"
+  },
+  {
+    "file": "matlab/data/speed_run3.txt",
+    "bytes": 788,
+    "sha256": "98f26ce56926739664e3594318b00eb8a5cb51a9ca7a0868c09a32e198f58a6b"
+  },
+  {
+    "file": "matlab/data/speed_run4.txt",
+    "bytes": 296228,
+    "sha256": "ac56f612002dabdedc4c0338f568e277685033a7f8d5a112e12998d8df36a217"
+  },
+  {
+    "file": "matlab/data/speed_run5.txt",
+    "bytes": 18548,
+    "sha256": "6beceb30d32a1fbe7b9bca2579b7a5f3450b32a851afc014d096332fea2f812c"
+  },
+  {
+    "file": "matlab/data/speed_run6.txt",
+    "bytes": 141290,
+    "sha256": "0cdc1106808c6f6e955520fc0da12e3107f69e4fd418d865c362a2d775b7e03f"
+  },
+  {
+    "file": "matlab/data/speed_run7.txt",
+    "bytes": 96927,
+    "sha256": "c6cd9fcf868e7fdf51c9833544b813c8b88a477cf19bb47e2ede7373be4e2267"
+  },
+  {
+    "file": "matlab/data/speed_run8.txt",
+    "bytes": 275,
+    "sha256": "f11d33a46180bff423116fd10e07e101dea6a600ab938b1ae314995b7778a049"
+  },
+  {
+    "file": "matlab/data/speed_run9.txt",
+    "bytes": 49959,
+    "sha256": "0ab2ae69edb8294cdef08a8f75af806a10a7195c34819ec5a9f382940d15311a"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run1.txt",
+    "bytes": 24428,
+    "sha256": "dc9a72eb0bc74bbfc0297b76037b4571c948cb13af9d12958f7c9702417519ca"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run10.txt",
+    "bytes": 28142,
+    "sha256": "8ab9263d3ce278bd6298602775359c2c44ef165dcae0a75f5b8d5bdef9bad860"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run2.txt",
+    "bytes": 39709,
+    "sha256": "ecfc14e6dc597f60bf2a49db5d9153210112180435a9fe3a8ec6c684c21c9010"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run3.txt",
+    "bytes": 32488,
+    "sha256": "e539c60cc28f6a95d1eb67812af38d610d7b14d5eac9aece2463d4239d68f5dd"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run4.txt",
+    "bytes": 30694,
+    "sha256": "054b985b930a8418a341abe6f13f50b74f6495cc4707c3de5d36ec00365a902d"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run5.txt",
+    "bytes": 29673,
+    "sha256": "17a6b19823b233db95d7ea1ba8062c85140a8de01628775d587dd76fcb6a5c9b"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run6.txt",
+    "bytes": 26763,
+    "sha256": "29fc1caa7180ca173cb90369f1babbc6141d07d0a658ba46ea2b1c3c16964e24"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run7.txt",
+    "bytes": 28620,
+    "sha256": "4e6068f7d536de249f05ebc10036a67ba7685b19dacf291cf605d2c48fe0d10a"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run8.txt",
+    "bytes": 32519,
+    "sha256": "390796ffe7f10b00f244355276cda1521cedadbba5cd7dc0a9db3b03f9c765f0"
+  },
+  {
+    "file": "matlab/data/第一类参数speed_run9.txt",
+    "bytes": 30514,
+    "sha256": "5292f8cc5815040aa5dc0e3f89cd4077f5ef7441cb90da70494e88418635736a"
+  },
+  {
+    "file": "matlab/export_revision_tables.m",
+    "bytes": 1212,
+    "sha256": "f1b952fc468e6e24dde38a07c711327af9804f4db9fd503b5c004237eda18e68"
+  },
+  {
+    "file": "matlab/fig1a.m",
+    "bytes": 6271,
+    "sha256": "6ebfda82e6b0c2a19f6791f4e9bd49324a04d094701e5916b4d6a150d36ec358"
+  },
+  {
+    "file": "matlab/fig1b.m",
+    "bytes": 6768,
+    "sha256": "7b885e127ec614bac1a1260651b511399a68a6e5a5f26339f137f711083d9973"
+  },
+  {
+    "file": "matlab/fig1c.m",
+    "bytes": 6450,
+    "sha256": "cc3767190e130a05da53429c8a44bc1f025cd7cf3be61bbff2151b1b69b16ff4"
+  },
+  {
+    "file": "matlab/fig1d.m",
+    "bytes": 6600,
+    "sha256": "161cc674088c3ca99802a548fd4676ce1b831a5de416b8581ca012637a75ac7a"
+  },
+  {
+    "file": "matlab/fig2a.m",
+    "bytes": 7646,
+    "sha256": "2ba6c18ba64961c5c122853e8a79215f50c75bcbc0dbcf6e2d2dbd4f3ab78f6b"
+  },
+  {
+    "file": "matlab/fig2b.m",
+    "bytes": 9139,
+    "sha256": "16e6ac1f269920e861cf6df742cafc2a8b2b57232bcafe9848f8946dc7ee1cff"
+  },
+  {
+    "file": "matlab/fig3.m",
+    "bytes": 245,
+    "sha256": "552b2d49d87045a02ad325c767babdb9292bda2a7de6836854c5da88217c6399"
+  },
+  {
+    "file": "matlab/fig4.m",
+    "bytes": 229,
+    "sha256": "507927963b54d7e44a2beca91eb45c399e5585216c2a86aaffa62c9a1f2bcae9"
+  },
+  {
+    "file": "matlab/fig5.m",
+    "bytes": 6483,
+    "sha256": "07a6d793117df185adb2157d614c5665f2048a08edd6072a0d01e2ff2f2c6f10"
+  },
+  {
+    "file": "matlab/fig6.m",
+    "bytes": 247,
+    "sha256": "cd10838ee61b6ac29ae8773337ac3ec69ad607c44794ee90abbd16357a66b3fe"
+  },
+  {
+    "file": "matlab/fig7a.m",
+    "bytes": 6783,
+    "sha256": "6ca5e34a26c67bf4dc6ed468f46c57538e29cb5444505caf1f073c3f03357ebf"
+  },
+  {
+    "file": "matlab/fig7b.m",
+    "bytes": 7136,
+    "sha256": "4e9496ba86e3e3851e4c3debda0534379edd72f63b092f14d14543b1ca4629d1"
+  },
+  {
+    "file": "matlab/fig7c.m",
+    "bytes": 8336,
+    "sha256": "75f6969b8be4dc9198ca12893191fdfce9b5c7dbfb9118a788cf491efe4ad518"
+  },
+  {
+    "file": "matlab/fig7d.m",
+    "bytes": 7134,
+    "sha256": "abecefbe0bf9b4d31b61804a081eba4eaceb3d450c1da65dde1634163cedf565"
+  },
+  {
+    "file": "matlab/fig7e.m",
+    "bytes": 9269,
+    "sha256": "4a9b790be2bc2f87b2f5701f787d65363bf897eb5657e263b9e0b15e37c9c7d0"
+  },
+  {
+    "file": "matlab/fig8.m",
+    "bytes": 7586,
+    "sha256": "fca5c3974fa0569cf71f4a6938224a54dd978db538ec5226146840aeda0ab555"
+  },
+  {
+    "file": "matlab/fig9a.m",
+    "bytes": 8215,
+    "sha256": "a94c245376372af71f2c9393544635819e2b3d3b932b2e19374d98e9750707d1"
+  },
+  {
+    "file": "matlab/fig9b.m",
+    "bytes": 8923,
+    "sha256": "54d94f24de05f44dfa8575d2ed24a4f6c65975205013f331263844a5f0e89068"
+  },
+  {
+    "file": "matlab/fig9c.m",
+    "bytes": 8933,
+    "sha256": "dab25efcf96f74a8549523485f8f9e00fd5ed1174b71d68924c4b2365d446ebe"
+  },
+  {
+    "file": "matlab/fig9d.m",
+    "bytes": 9084,
+    "sha256": "2d21319b8ae32891d0b05ac086ddf0b6d60d2b91ee717ecee18dee274b8c671b"
+  },
+  {
+    "file": "matlab/fig9e.m",
+    "bytes": 9053,
+    "sha256": "70727d0b868e953fd37499a87d2c06f9c3ba4c5f4041d1afd1a8f839806dcba6"
+  },
+  {
+    "file": "matlab/figA1a.m",
+    "bytes": 239,
+    "sha256": "e796251bcb1e38031445fca79365afd57df8d795e37847640de0d50cd5b0c448"
+  },
+  {
+    "file": "matlab/figA1b.m",
+    "bytes": 242,
+    "sha256": "7c16be1767de3f28b84ae523ed14cfd8467bc0b6895f21741b7c63b56c826005"
+  },
+  {
+    "file": "matlab/reproduce_tables.m",
+    "bytes": 564,
+    "sha256": "f8c780ab9002d479de87debb0f610c4c3716495b66a8605cbdda9ebd793abe1f"
+  },
+  {
+    "file": "matlab/revision_data/fig3_fine.csv",
+    "bytes": 367,
+    "sha256": "b1d4849f86066edbce8b91767574eafa0318635367cde2b72191f003d8af34fa"
+  },
+  {
+    "file": "matlab/revision_data/fig3_main.csv",
+    "bytes": 603,
+    "sha256": "043558352c396a0a25dd54ec7fe80444a79eb9e80fc87899efb5c60e415f2a7c"
+  },
+  {
+    "file": "matlab/revision_data/fig3_theory.csv",
+    "bytes": 7022,
+    "sha256": "9047e9d3d35fd0da1c9f562479ef2f5957ad9b818ad8cc76f2b4b5fadf2a71b2"
+  },
+  {
+    "file": "matlab/revision_data/fig4_fine.csv",
+    "bytes": 159,
+    "sha256": "d6eb7797e964688e1d283bb5f32a02312d612e33c70616ba029f9f55c6d938d6"
+  },
+  {
+    "file": "matlab/revision_data/fig4_main.csv",
+    "bytes": 586,
+    "sha256": "3da662966440976243df839e518cc6feb4a2fd9754ec9fbe2b09927037a537c3"
+  },
+  {
+    "file": "matlab/revision_data/fig4_theory.csv",
+    "bytes": 7013,
+    "sha256": "1fbcdcd5fd150f39aed308fb6cb685105d1fdb5c2ee1472c078a8f34d1f19786"
+  },
+  {
+    "file": "matlab/revision_data/fig6_hybrid_elapsed.csv",
+    "bytes": 5096,
+    "sha256": "b934631ee98e0e7aa9b644107e325dfe1684a99257cb245cb19b878cefafb68a"
+  },
+  {
+    "file": "matlab/revision_data/model_means.csv",
+    "bytes": 2427,
+    "sha256": "4925838aadcd47c1c9e2ae3fdc47d57cdfbf5bb0f8a481f1ec723f869ca862f1"
+  },
+  {
+    "file": "matlab/revision_data/model_paired_differences.csv",
+    "bytes": 2706,
+    "sha256": "8be2af31597b10e6a5a9e4cda6732594ddb2ba7b9220821777017aade4106a7f"
+  },
+  {
+    "file": "matlab/revision_data/step_means.csv",
+    "bytes": 1286,
+    "sha256": "c6385ff21a01704402e412b64909cdd14ffad0a37fe317f2a647179849da6a91"
+  },
+  {
+    "file": "matlab/revision_data/step_paired_differences.csv",
+    "bytes": 1261,
+    "sha256": "b3eda161393ade71033377493708f3df8510a8cf8dfcfb221c39d290c4820573"
+  },
+  {
+    "file": "matlab/revision_plot.m",
+    "bytes": 5648,
+    "sha256": "c364c6d63af54841408c1ff2bc712ffcfc244bf79ab92bbf1af14fdcb28e57f6"
+  },
+  {
+    "file": "matlab/revision_tables.m",
+    "bytes": 3921,
+    "sha256": "60bd9aab36dbe846b74da932e2d94112818ed55f9b2bdbf2096cb59405d78d12"
+  },
+  {
+    "file": "matlab/run_revision_figures.m",
+    "bytes": 457,
+    "sha256": "4d8a9b4270d7fb8166e7d53d16e69c54d7010eac58f1265a10067860383f3043"
+  },
+  {
+    "file": "matlab/verify_reproduction.m",
+    "bytes": 1436,
+    "sha256": "2c6ae408c7f966add7fce308a311495278be60101eedebf7c91e3ef5f3eddaa6"
+  },
+  {
+    "file": "requirements-tested.txt",
+    "bytes": 29,
+    "sha256": "4832aea9f164dd349e62409b8eddc4114dbdc3e95dbd8f494190817a9f316567"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 26,
+    "sha256": "3b1aafa7418d2da4a1c87a5ee67e391a1490bc3a0daa0f584fffd9b62417387d"
+  },
+  {
+    "file": "results/.keep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "tables/fig3_fine.csv",
+    "bytes": 262,
+    "sha256": "d741c090083f91164295726b8f0e265f8fe9deab58fc6b106c85a8dd330fe19d"
+  },
+  {
+    "file": "tables/fig3_main.csv",
+    "bytes": 603,
+    "sha256": "043558352c396a0a25dd54ec7fe80444a79eb9e80fc87899efb5c60e415f2a7c"
+  },
+  {
+    "file": "tables/fig3_theory.csv",
+    "bytes": 6816,
+    "sha256": "b711c2da6943ee3aca15dc57903d0212c7025a5b10a5e07a506fe9a1659e046e"
+  },
+  {
+    "file": "tables/fig4_fine.csv",
+    "bytes": 197,
+    "sha256": "82e53f073526eea2c6239c7e87ff44d95f133f2ddf7890978218c94386588cb7"
+  },
+  {
+    "file": "tables/fig4_main.csv",
+    "bytes": 586,
+    "sha256": "3da662966440976243df839e518cc6feb4a2fd9754ec9fbe2b09927037a537c3"
+  },
+  {
+    "file": "tables/fig4_theory.csv",
+    "bytes": 6791,
+    "sha256": "244bda916b9ba8cb0f36fbfef2302e6d511707433151a4fd2c3a0ea25e64a629"
+  },
+  {
+    "file": "tables/fig6_hybrid_elapsed.csv",
+    "bytes": 5096,
+    "sha256": "b934631ee98e0e7aa9b644107e325dfe1684a99257cb245cb19b878cefafb68a"
+  },
+  {
+    "file": "tables/fig6_hybrid_input.csv",
+    "bytes": 3878,
+    "sha256": "bcec6ee0b2ef1034feba9a5da9f57a8c50a90ae87e485702d6d9b3a8114559d8"
+  },
+  {
+    "file": "tables/model_analytic_comparison.csv",
+    "bytes": 1273,
+    "sha256": "aba54307e62d6e88d922a144e9ac23209c747704301ea8afed6a020a4ddb8dd5"
+  },
+  {
+    "file": "tables/model_means.csv",
+    "bytes": 2427,
+    "sha256": "4925838aadcd47c1c9e2ae3fdc47d57cdfbf5bb0f8a481f1ec723f869ca862f1"
+  },
+  {
+    "file": "tables/model_paired_differences.csv",
+    "bytes": 2706,
+    "sha256": "8be2af31597b10e6a5a9e4cda6732594ddb2ba7b9220821777017aade4106a7f"
+  },
+  {
+    "file": "tables/new_capture_cutoff.csv",
+    "bytes": 264,
+    "sha256": "9e4dde37d963a06bbdebce57e11422ca9ea73fd50594ec1e419053a1d7c2a237"
+  },
+  {
+    "file": "tables/new_capture_details.json",
+    "bytes": 789,
+    "sha256": "033f5495b25386e0d2218cdee89d9ba3aaf06051178642752040fc450097c9e9"
+  },
+  {
+    "file": "tables/new_capture_sorted.csv",
+    "bytes": 23779,
+    "sha256": "177ffec73a0fe8edd6e7285e8b7c556182abb76cf8e0261d3dfa3904f7cd34ff"
+  },
+  {
+    "file": "tables/recomputed_fig3_fine.csv",
+    "bytes": 367,
+    "sha256": "b1d4849f86066edbce8b91767574eafa0318635367cde2b72191f003d8af34fa"
+  },
+  {
+    "file": "tables/recomputed_fig3_legacy.csv",
+    "bytes": 603,
+    "sha256": "043558352c396a0a25dd54ec7fe80444a79eb9e80fc87899efb5c60e415f2a7c"
+  },
+  {
+    "file": "tables/recomputed_fig3_theory.csv",
+    "bytes": 7022,
+    "sha256": "9047e9d3d35fd0da1c9f562479ef2f5957ad9b818ad8cc76f2b4b5fadf2a71b2"
+  },
+  {
+    "file": "tables/recomputed_fig4_fine.csv",
+    "bytes": 159,
+    "sha256": "d6eb7797e964688e1d283bb5f32a02312d612e33c70616ba029f9f55c6d938d6"
+  },
+  {
+    "file": "tables/recomputed_fig4_legacy.csv",
+    "bytes": 586,
+    "sha256": "3da662966440976243df839e518cc6feb4a2fd9754ec9fbe2b09927037a537c3"
+  },
+  {
+    "file": "tables/recomputed_fig4_theory.csv",
+    "bytes": 7013,
+    "sha256": "1fbcdcd5fd150f39aed308fb6cb685105d1fdb5c2ee1472c078a8f34d1f19786"
+  },
+  {
+    "file": "tables/step_means.csv",
+    "bytes": 1286,
+    "sha256": "c6385ff21a01704402e412b64909cdd14ffad0a37fe317f2a647179849da6a91"
+  },
+  {
+    "file": "tables/step_paired_differences.csv",
+    "bytes": 1261,
+    "sha256": "b3eda161393ade71033377493708f3df8510a8cf8dfcfb221c39d290c4820573"
+  },
+  {
+    "file": "tables/validation.json",
+    "bytes": 5741,
+    "sha256": "f65695f275f20caedf9afb58e2e9aba024b1697bf84f74202e137d55e9f19f98"
+  }
+]

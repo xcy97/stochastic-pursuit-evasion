@@ -1,0 +1,9 @@
+*.exe
+*.obj
+*.mod
+*.pdb
+*.log
+__pycache__/
+results/*
+!results/.keep
+matlab/output/
