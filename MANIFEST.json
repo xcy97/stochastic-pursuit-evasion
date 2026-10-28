@@ -846,8 +846,8 @@
   },
   {
     "file": "fortran/cutoff_validation.f90",
-    "bytes": 4878,
-    "sha256": "0299dcf73eb0d7e84cda97be3144c81bae040945bdc3a5407648b3b6fb79eb66"
+    "bytes": 4766,
+    "sha256": "4c7a96835c5351f89ab2a11f5de3fea3d3484df243c34bbbbbb8c90cfd2d2dd7"
   },
   {
     "file": "inputs/cutoff_validation/expected_results.json",
