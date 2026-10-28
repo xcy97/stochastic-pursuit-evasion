@@ -6,7 +6,7 @@ This repository contains the full stochastic model, the single-chaser analytical
 
 ## Start here
 
-Download the complete repository using **Code > Download ZIP** and extract it. Keep all subfolders together. The accompanying `Supplementary_Code.zip` supplied with the manuscript contains the same version of these files.
+Download the complete repository using **Code > Download ZIP** and extract it. Keep all subfolders together.
 
 There are two workflows:
 
@@ -135,3 +135,8 @@ The supplied samples reproduce the reported sample statistics. New Monte Carlo r
 Confidence intervals quantify finite-sample uncertainty. They do not include time-discretization or model-approximation bias and are not simultaneous intervals for all comparisons. The Fortran summaries use 2000 bootstrap resamples; the final numerical tables use the documented Python 10000-resample calculation.
 
 Further data-processing and provenance details are in [METHODS_AND_DATA.md](documentation/METHODS_AND_DATA.md) and [PROVENANCE.md](documentation/PROVENANCE.md).
+
+
+## Additional cutoff continuation validation
+
+The independent validation of the Figure 6 remaining-time proxy is documented in [documentation/CUTOFF_VALIDATION.md](documentation/CUTOFF_VALIDATION.md). Run `python analysis/cutoff_validation.py` to recompute the four archived ensembles. The hybrid estimates remain approximations; the validation reports their observed bias without replacing the original Figure 6 data.
