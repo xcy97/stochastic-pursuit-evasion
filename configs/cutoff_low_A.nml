@@ -1,0 +1,5 @@
+&run
+ nch=1,ntrials=2000,first_id=100001,master_seed=20261028,model=0,
+ d=0.004642,mu=3,a=2.4,h=.0001,cutoff=1000,horizon=100000,
+ prefix='results/cutoff_low_A'
+/
